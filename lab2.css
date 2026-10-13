@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin : 0;
+}
+
+.first{
+    text-align: center;
+    background-color: black;
+    margin: 0,0,0,0;
+}
+
+.projItem{
+    background-color: black;
+    width: 500px;
+    height: 120px;
+}
+
+.first_text{
+    text-align: center;
+    color: aqua;
+}
+
+.Projects{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;  
+    gap:80px;
+}
+
+.Projects > * {
+    border: 1px solid aqua;
+}
+
+.fullprojdiv{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.projHead{
+    text-align: center;
+    color: chocolate;
+}
+
+.projText{
+    text-align : center;
+    color : aqua
+}
+
+
+h1{
+    align-items:center ;
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+.textblock{
+ margin: 0;   
+}
